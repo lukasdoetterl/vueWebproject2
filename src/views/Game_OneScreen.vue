@@ -135,8 +135,8 @@ methods: {
     newDiv.setAttribute("id", card);
     //make a space between the cards
 
-    newDiv.setAttribute("style", "width: 4%;");
-    newDiv.setAttribute("style", "height: 4%;");
+    newDiv.setAttribute("style", "width: 10em;");
+    newDiv.setAttribute("style", "height: 10em;");
 
 
     //add the fucntion addCard to the onclick event
