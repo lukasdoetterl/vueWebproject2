@@ -169,8 +169,8 @@ methods: {
     newDiv.setAttribute("id", card);
     //make a space between the cards
 
-    newDiv.setAttribute("style", "width: 4%;");
-    newDiv.setAttribute("style", "height: 4%;");
+    newDiv.setAttribute("style", "width: 10em;");
+    newDiv.setAttribute("style", "height: 10em;");
 
 
     //add the fucntion addCard to the onclick event
@@ -242,8 +242,8 @@ methods: {
 
   },
   async skip() {
-      const req = "/2Pskip";
-      await this.updateGame(req);
+    const req = "http://localhost:9000/2Pskip";
+    await this.postJSON(req);
 
 
   },
@@ -278,7 +278,8 @@ methods: {
 
   },
   async startGame() {
-    await this.getJSON("/startVueGame");
+    const req = "http://localhost:9000/2PnewGame";
+    await this.postJSON(req);
 
 },
   async playSelectedCards() {
