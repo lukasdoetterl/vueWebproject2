@@ -19,13 +19,7 @@
           <RouterLink class="nav-link router-link" aria-current="page" to="/Game_OneScreen">Start a Game</RouterLink>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/playerviewX" > Player 1</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/playerview/2" > Player 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/chatview" > Chat</a>
+          <RouterLink class="nav-link router-link" aria-current="page" to="/2player">2Player</RouterLink>
         </li>
         <li class="nav-item">
           <RouterLink class="nav-link router-link" aria-current="page" to="/about">About</RouterLink>

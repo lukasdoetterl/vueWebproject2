@@ -1,10 +1,10 @@
 <template>
-  <input type="image" class="playingBoard player1 img-fluid displayedCard spacingright" src="/images/cards/DA.png" id="DA">
+  <input type="image" class="playingBoard player1 img-fluid displayedCard spacingright" src="/images/cards/{{card}}.png" id={{card}}>
 </template>
 
 <script>
 export default {
-  name: "Card"
+  props: ['card'],
 
 }
 </script>

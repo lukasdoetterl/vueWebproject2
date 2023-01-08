@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from "../views/Home.vue"
 import About from "../views/About.vue"
 import Game_OneScreen from "@/views/Game_OneScreen.vue";
+import PlayerView from "@/views/PlayerView.vue";
 
 
 
@@ -28,6 +29,11 @@ const router = createRouter({
             path: "/game_OneScreen",
             name: "gameOS",
             component: Game_OneScreen,
+        },
+        {
+            path: "/2player",
+            name: "2Player",
+            component:PlayerView,
         },
         {
             path: "/:pathMatch(.*)*",

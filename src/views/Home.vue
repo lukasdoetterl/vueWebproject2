@@ -1,5 +1,6 @@
 <template>
     <NavBar />
+
     <div class="container">
       <div class="row">
         <div class="col-sm">
@@ -30,7 +31,10 @@
             <img class="card-img-top" src="public/images/pictures/info.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Infos</h5>
-              <p class="card-text">Some Information about The Project / also u can find some Links here</p>
+              <p class="card-text">Set A Reminder for A Game of "Bettler ?"
+                <vaadin-date-picker placeholder="Pick a date">
+                </vaadin-date-picker>
+              </p>
               <a href="#" class="btn btn-outline-info">Learn Something</a>
             </div>
           </div>
@@ -42,6 +46,11 @@
       </div>
 
 
+      <br>
+
+      <vaadin-icon icon="vaadin:phone"></vaadin-icon>
+
+
     </div>
 
 
@@ -49,6 +58,9 @@
 
 <script>
 import NavBar from "../components/NavBar.vue";
+import '@vaadin/vaadin-date-picker/vaadin-date-picker.js';
+
+
 
 
 export default {
