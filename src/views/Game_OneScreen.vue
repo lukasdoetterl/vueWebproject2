@@ -3,7 +3,7 @@
 
 </style>
 <template>
-  <nav-bar />
+   <nav-bar />
 <game-one-screen />
 
 
