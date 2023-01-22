@@ -120,8 +120,13 @@ export default {
           console.log("success");
           console.log(result);
           this.createCards(result);
-
+        },
+        error: (error) => {
+          console.log("error");
+          alert("No Connection to the Server");
         }
+
+
       });
     },
     createSingleCard(symbol, value, turn, player) {

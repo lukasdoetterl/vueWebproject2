@@ -4,6 +4,7 @@
 
 
 <template>
+  <meta name="theme-color" content="#317EFB"/>
   <RouterView />
 </template>
 

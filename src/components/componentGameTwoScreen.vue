@@ -124,8 +124,10 @@ export default {
           console.log(result);
           this.webSocketInit()
           this.createCards(result);
-
-
+        },
+        error: (error) => {
+          console.log("error");
+          alert("No Connection to the Server");
         }
       });
     },

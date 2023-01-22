@@ -1,4 +1,5 @@
 <template>
+
     <NavBar />
 
     <div class="container">
@@ -48,7 +49,7 @@
 
       <br>
 
-      <vaadin-icon icon="vaadin:phone"></vaadin-icon>
+
 
 
     </div>
@@ -59,6 +60,8 @@
 <script>
 import NavBar from "../components/NavBar.vue";
 import '@vaadin/vaadin-date-picker/vaadin-date-picker.js';
+
+
 
 
 
